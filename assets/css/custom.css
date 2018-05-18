@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/**@import url('https://fonts.googleapis.com/css?family=Teko');**/
+@import url('https://fonts.googleapis.com/css?family=Jura:400,700');
+
+.container {
+    padding-top: 60px;
+}
+
+body {
+    background-image: url('../img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.page-article a {
+    color: #FF7405;
+}
+
+.page-article a:visited {
+    color: #FF8E05;
+}
+
+.overlay {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+}
+
+.lead {
+    font-family: 'Jura', sans-serif;
+    font-size: 2.4em;
+}
+
+h1.logo {
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+h1.logo a {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+h1#logo {
+    height: 60px;
+}
+
+h1.logo {
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+h1.logo a {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+h1#logo {
+    height: 65px;
+}
+
+h1#logo a {
+    padding-top: 60px;
+    background-image: url('../img/lrm_client_logo-site.png');
+}
+
+h1#logo a {
+    padding-top: 70px;
+    background-image: url('../img/lrm_client_logo-site.png');
+}
+
+article {
+    padding-bottom: 50px;
+}
+
+/** Site button customisations **/
+.button-padding {
+    padding-bottom: 15px;
+}
+
+.btn-success {
+    background-color: #FE9900;
+    color: #000;
+    border-color: #FE9900;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+    color: #FFFFFF;
+    background-color: #C52C2C;
+    border-color: #761c19;
+}
+
+.btn-info {
+    background-color: #222222;
+    color: #FFFFFF;
+    border-color: #222222;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+    color: #FFFFFF;
+    background-color: #C52C2C;
+    border-color: #761c19;
+}
